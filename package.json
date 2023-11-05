@@ -1,0 +1,30 @@
+{
+  "name": "issue-tracker",
+  "version": "1.0.0",
+  "description": "its a issue trakcer application here you can add new project and show the details project and we can raise the issue/bugs in the projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "issue",
+    "tracker",
+    "codingnijas",
+    "backend",
+    "skill",
+    "test"
+  ],
+  "author": "Akash maurya",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-flash": "github:RGBboy/express-flash",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
