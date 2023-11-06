@@ -11,7 +11,7 @@ router.get('/projects/all-issues/:id' , projectController.projectsWithIssues);
 router.post('/project/issue/:id', projectController.raiseIssue);
 router.get('/project/issue/:id', projectController.getProjectIssue);
 
-router.get('/projects/new' , async(req,res)=>{
+router.get('/' , async(req,res)=>{
     try {
         let projects = await Project.find();
         if(!projects){
